@@ -1,0 +1,13 @@
+.main-heading {
+  font-size: 56px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-header {
+  margin-bottom: 20px;
+}
+
+.section-header__inner {
+  padding: 30px 48px;
+}

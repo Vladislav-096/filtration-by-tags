@@ -1,0 +1,22 @@
+.section-books__inner {
+  padding: 48px;
+}
+
+.section-books__list {
+  margin-bottom: 20px;
+  counter-reset: num;
+}
+.section-books__list .section-books__list-item {
+  position: relative;
+}
+.section-books__list .section-books__list-item:before {
+  content: counter(num) "";
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  left: 16px;
+  width: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+}

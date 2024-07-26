@@ -1,0 +1,29 @@
+.dropdown {
+  position: absolute;
+  padding: 11px;
+  top: 28px;
+  left: -90px;
+  width: 260px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  border-radius: 20px;
+  opacity: 0;
+  z-index: 100;
+  transform: scaleY(0);
+  transform-origin: top;
+  background-color: rgba(64, 93, 114);
+  transition: transform 0.2s, opacity 0.1s;
+}
+
+.dropdown-open {
+  /* visibility: visible; */
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.section-books-card__tag-chosen {
+  color: rgb(255, 255, 255);
+  background-color: rgba(64, 93, 114);
+  border: 2px solid #fff;
+}

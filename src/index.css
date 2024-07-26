@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Bold"), local("Inter-Bold"),
+    url("../fonts/Inter-Bold.woff2") format("woff2"),
+    url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Regular"), local("Inter-Regular"),
+    url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding-top: 103px;
+  padding-bottom: 240px;
+  min-width: 320px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 248, 243, 1);
+  background-color: rgba(247, 231, 220, 1);
+}
+
+/* glob */
+.container {
+  max-width: 500px;
+}
+
+.third-container {
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.list-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pointer-events-none {
+  cursor: pointer;
+  pointer-events: none;
+}
+
+/*  */
+.section {
+  border-radius: 32px;
+  background-color: rgba(117, 134, 147, 1);
+}

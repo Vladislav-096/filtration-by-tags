@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "title": "Plastic: A Novel",
+      "author": "Scott Guild",
+      "data": "February 2024",
+      "price": 420,
+      "tags": ["Climate change", "Sci-Fi"]
+    },
+    {
+      "title": "Space Oddities: The Mysterious Anomalies Challenging Our Understanding of the Universe",
+      "author": "Harry Cliff",
+      "data": "March 2024",
+      "price": 542,
+      "tags": ["Climate change", "Sci-Fi"]
+    },
+    {
+      "title": "H Is for Hope: Climate Change from A to Z",
+      "author": "Elizabeth Kolbert",
+      "illustrator": "Wesley Allsbrook",
+      "data": "March 2024",
+      "price": 674,
+      "tags": ["Climate change", "Technology"]
+    },
+    {
+      "title": "The Exquisite Machine: The New Science of the Heart",
+      "author": "Elizabeth Kolbert",
+      "data": "March 2024",
+      "price": 981,
+      "tags": ["Health", "Biochemistry"]
+    }
+  ]
+}

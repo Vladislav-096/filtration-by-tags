@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+  .section-book__list {
+    padding-bottom: 115px;
+  }
+
+  .section-book__list-item-buttons {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section-book__list-item-buttons-wrapper:not(:last-child) {
+    margin-right: 11px;
+    margin-bottom: 10px;
+  }
+
+  .section-book__list-item-buttons-wrapper {
+    margin-right: 11px;
+    margin-left: 11px;
+    margin-top: 11px;
+  }
+}
